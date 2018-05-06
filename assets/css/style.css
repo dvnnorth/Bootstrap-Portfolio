@@ -13,7 +13,7 @@ div.col-sm-3 img.portfolioImg {
 
 .headerFont {
     font-family: 'Volkhov', serif;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
 }
 
@@ -24,6 +24,14 @@ div.col-sm-3 img.portfolioImg {
 .round {
     border-radius: 50%;
     shape-outside: circle(50%);
+}
+
+.socialLink {
+    opacity: 0.5;
+}
+
+.socialLink:hover {
+    opacity: 0.8;
 }
 
 .topNav {
@@ -38,6 +46,7 @@ div.col-sm-3 img.portfolioImg {
 }
 
 #footerBar {
+    position: fixed;
     bottom: 0;
     width: 100%;
     padding: 0;
