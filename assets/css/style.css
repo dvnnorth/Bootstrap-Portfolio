@@ -2,16 +2,23 @@ body {
     background-image: url('../images/topography.png');
 }
 
-.customDark {
-    background-color: rgb(24, 24, 104);
+/* For Portfolio Images */
+div.col-sm-3 img.portfolioImg {
+    width: 200px;
 }
 
 .floatLeft {
     float: left;
 }
 
-.whiteBG {
-    background-color: rgb(255, 255, 255);
+.headerFont {
+    font-family: 'Volkhov', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.purpleText {
+    color: rgb(24, 24, 104);
 }
 
 .round {
@@ -19,6 +26,22 @@ body {
     shape-outside: circle(50%);
 }
 
-.slightShadow {
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+.topNav {
+    position: relative;
+    top: 0px;
+    background-color: rgb(24, 24, 104);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3) !important;
+}
+
+.whiteBG {
+    background-color: rgb(255, 255, 255);
+}
+
+#footerBar {
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    background: #333;
+    color: #eee;
+    border-top: 5px rgb(24, 24, 104) solid;
 }
