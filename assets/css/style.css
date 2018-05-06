@@ -14,8 +14,9 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.roundBorder {
+.round {
     border-radius: 50%;
+    shape-outside: circle(50%);
 }
 
 .slightShadow {
