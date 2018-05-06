@@ -1,0 +1,23 @@
+body {
+    background-image: url('../images/topography.png');
+}
+
+.customDark {
+    background-color: rgb(24, 24, 104);
+}
+
+.floatLeft {
+    float: left;
+}
+
+.whiteBG {
+    background-color: rgb(255, 255, 255);
+}
+
+.roundBorder {
+    border-radius: 50%;
+}
+
+.slightShadow {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+}
