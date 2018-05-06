@@ -12,35 +12,35 @@
 <body>
 
     <!-- Bootstrap Navbar Implementation -->
-    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark topNav">
+
+        <div class="container">
+
+        <span class="badge badge-light headerFont purpleText m-1">Devin North</span>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
             
-        <nav class="navbar-expand-lg navbar-dark topNav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav ml-auto">
 
-            <div class="container">
+                <li class="nav-item active">
+                    <a class="nav-link text-nowrap" href="index.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
 
-                <div class="row">
-                    
-                    <div class="col-sm-8 p-2">
+            </ul>
 
-                        <span class="badge badge-light headerFont purpleText m-1">Devin North</span>
+        </div>
 
-                    </div>
-
-                    <div class="col-sm-4 d-flex justify-content-end p-2">
-
-                        <a class="nav-link  active text-nowrap" href="index.html">About Me</a></li>
-                        <a class="nav-link " href="portfolio.html">Portfolio</a></li>
-                        <a class="nav-link " href="contact.html">Contact</a></li>
-                
-                    </div>
-
-                </div>
-
-            </div>
-
-        </nav>
-    
-    </header>
+    </nav>
     <!-- End Bootstrap Navbar Implementation -->
 
     <!-- Main Content / Grid Container -->
@@ -50,17 +50,17 @@
 
             <div class="row">
 
-                <div class="col-sm">
+                <div class="col">
                     <h1 class="m-4 display-4">About Me</h1>
                     <hr>
                 </div>
 
             </div>
 
-            <div class="row">
+            <div class="row mb-5">
 
-                <div class="col-sm">
-                    <img class="round floatLeft m-4" src="./assets/images/avatar_new.jpg" width="200px"/>
+                <div class="col">
+                    <img class="round float-left m-4" src="./assets/images/avatar_new.jpg" width="200px"/>
                     <p class="text-justify">
                         My name is Devin North and I'm an aspiring full-stack web developer from Far West Texas. I've lived in the Houston area for three years and have fallen in love with the city. I love anything with a processor, am an avid video game enthusiast, and a proud "computer nerd".
                     </p>
@@ -84,29 +84,26 @@
 
         <div class="container">
 
-            <div class="row">
+            <span class="float-left m-2">&copy;2018 Devin North</span>
 
-                <div class="col-sm-9 p-2">
+            <span class="float-right m-2">
+                <a class="m-2 socialLink" href="https://www.github.com/dvnnorth" target="_blank">
+                    <img src="assets/images/GitHub-Mark-Light-120px-plus.png" width="24px">
+                </a>
+                <a class="m-2 socialLink" href="https://www.linkedin.com/in/dvnnorth" target="_blank">
+                    <img src="assets/images/In-White-128px-TM.png" width="24px">
+                </a>
+                <a class="m-2 socialLink" href="https://www.twitter.com/devin_n_" target="_blank">
+                    <img src="assets/images/Twitter_Logo_WhiteOnImage.png" width="24px">
+                </a>
+            </span>
 
-                    &copy;2018 Devin North
-
-                </div>
-
-                <div class="col-sm-3 d-flex justify-content-end">
-
-                    <a class="nav-link" href="https://www.github.com/dvnnorth" target="_blank">
-                        <img class="socialLink" src="assets/images/GitHub-Mark-Light-120px-plus.png" width="24px">
-                    </a>
-                    <a class="nav-link" href="https://www.linkedin.com/in/dvnnorth" target="_blank">
-                        <img class="socialLink" src="assets/images/In-White-128px-TM.png" width="24px">
-                    </a>
-                    <a class="nav-link" href="https://www.twitter.com/devin_n_" target="_blank">
-                        <img class="socialLink" src="assets/images/Twitter_Logo_WhiteOnImage.png" width="24px">
-                    </a>
-
-                </div>
+        </div>
 
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
 </html>

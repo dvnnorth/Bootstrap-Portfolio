@@ -2,19 +2,37 @@ body {
     background-image: url('../images/topography.png');
 }
 
-/* For Portfolio Images */
-div.col-sm-3 img.portfolioImg {
-    width: 200px;
-}
-
-.floatLeft {
-    float: left;
-}
-
 .headerFont {
     font-family: 'Volkhov', serif;
     font-size: 26px;
     font-weight: bold;
+}
+
+.portfolioItem {
+    margin: 10px 10px 0px 10px;
+    display: block;
+    position: relative;
+    overflow: auto;
+    float: left;
+    color: #fff;
+}
+
+.portfolioItem a {
+    color: white;
+}
+
+.portfolioItem a:hover {
+    font-weight: bold;
+}
+
+.portfolioLinkBox {
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(24, 24, 104);
+    top: 140px;
 }
 
 .purpleText {
@@ -27,11 +45,13 @@ div.col-sm-3 img.portfolioImg {
 }
 
 .socialLink {
-    opacity: 0.5;
+    opacity: 0.4;
+    text-decoration: none;
 }
 
 .socialLink:hover {
     opacity: 0.8;
+    text-decoration: none;
 }
 
 .topNav {
