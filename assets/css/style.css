@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+}
+
 body {
     background-image: url('../images/topography.png');
 }
@@ -39,9 +43,8 @@ body {
     color: rgb(24, 24, 104);
 }
 
-.round {
-    border-radius: 50%;
-    shape-outside: circle(50%);
+.roundedEdges {
+    border-radius: 10%;
 }
 
 .socialLink {
