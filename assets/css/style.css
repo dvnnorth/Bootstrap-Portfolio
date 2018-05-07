@@ -6,6 +6,10 @@ body {
     background-image: url('../images/topography.png');
 }
 
+textarea.form-control {
+    height: 10rem;
+}
+
 .headerFont {
     font-family: 'Volkhov', serif;
     font-size: 26px;
